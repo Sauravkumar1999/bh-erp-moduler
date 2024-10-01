@@ -1,0 +1,122 @@
+@media(max-width: 800px) {
+    .banner {
+        margin-top: 0px !important;
+    }
+
+    .banner {
+        padding-top: 60px;
+    }
+
+    .banner .title1 {
+        font-size: 16px;
+    }
+
+    .banner .title2 {
+        font-size: 28px;
+    }
+
+    .banner .banner_img1 {
+        width: auto;
+        max-height: 180px;
+    }
+
+    .headding {
+        padding: 0px 10px;
+    }
+
+
+    /*knee stem cell*/
+
+    .pagename {
+        padding: 80px 0px;
+    }
+
+    .pagetitle .title1 {
+        font-size: 14px;
+        padding: 0px 20px 6px;
+    }
+
+    .pagetitle .title2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+        padding: 0px 20px;
+    }
+
+    .pagetitle {
+        padding: 0px 40px;
+    }
+
+    .knee_stem_cell_img {
+        padding-bottom: 30px;
+    }
+
+    .knee_stem_cell_form {
+        font-size: 14px;
+        margin-top: 60px;
+    }
+
+    #knee_stem_cell_form {
+        padding: 0px 30px;
+    }
+
+    .knee_stem_cell_form .title2 {
+        font-size: 20px;
+        margin-bottom: 25px !important;
+    }
+
+    .condition1 {
+        margin-top: 20px !important;
+    }
+
+    .hour_mt {
+        margin-top: 10px;
+    }
+
+    .pagetitle #title_bg {
+        margin: 0px;
+    }
+
+    .display_desktop {
+        display: none;
+    }
+
+    .sr_leftr {
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+
+    .safety_cvr_form {
+        background: transparent;
+        padding: 40px 0px;
+        border: 0px solid #F0F0F0;
+        border-radius: 0px;
+    }
+
+    .safety_cvr_banner .title1 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .skeeper_cvr_banner .title1{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .last-select{
+        margin-top: 10px;
+    }
+
+    .skeeper_btn_end{
+        padding: 10px 20px;
+        gap: 10px;
+        border-radius: 6px;
+        background: #EC661A;
+        color: #fff;
+        font-family: Pretendard-Bold;
+        font-size: 14px;
+    }
+}

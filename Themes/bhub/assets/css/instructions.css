@@ -1,0 +1,142 @@
+.instructions-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.instructions-container .heading {
+    justify-content: center;
+    text-align: center;
+}
+.inst-content1 {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.inst-content2 {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.inst-content1 h5,
+.inst-content2 h5 {
+    margin-bottom: 20px;
+}
+.inst-content1 b,
+.inst-content2 b {
+    color: var(--main2, #fd6f22);
+}
+
+.instruction-form {
+    background-color: #fbfbfb;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 30px;
+}
+.instruction-form .main-form {
+    width: 50%;
+    margin: 0 auto;
+}
+.form-group #inquiry {
+    width: 100%;
+}
+.form-group {
+    font-size: 18px;
+}
+.form-group b {
+    color: rgba(253, 111, 34, 1);
+    font-size: 18px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form-group label {
+    text-align: left;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.main-form .btn.btn-outline-secondary {
+    width: 140px;
+    height: 40px;
+    background: var(--main2, #fd6f22);
+    border: 1px solid #fd6f22;
+    border: 1px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    border-radius: 6px;
+    color: var(--main2, #fff);
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-input {
+    margin: 0 !important;
+    width: 20px !important;
+    height: 20px;
+}
+
+.form-group .checkbox-container label {
+    margin: 0;
+}
+
+.checkbox-label {
+    margin-left: -300px;
+    font-weight: 300;
+}
+.checkbox-label b {
+    font-weight: 500;
+    color: rgba(253, 111, 34, 1);
+}
+
+.checkbox-input {
+    margin-left: -310px;
+    margin-top: -6px;
+}
+
+@media screen and (min-width: 1440px) {
+    .checkbox-label {
+        margin-left: -330px;
+    }
+
+    .checkbox-input {
+        margin-left: -350px;
+        margin-top: -6px;
+    }
+}
+
+div:where(.swal2-icon) {
+    width: 4rem;
+    height: 4em;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .inst-content1{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .inst-content2{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .instruction-form .main-form{
+        width: 90%;
+    }
+}

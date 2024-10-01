@@ -1,0 +1,279 @@
+.biotech__header {
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.biotech__header svg {
+    width: 100%;
+    height: 100%;
+}
+
+.biotech__header h1 {
+    font-family: Pretendard;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.73px;
+    color: #ff5f54;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.biotech__header img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.biotech__container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.biotech__content__section {
+    padding: 80px 0;
+}
+
+.biotech__section__header span {
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    display: block;
+}
+
+.biotech__section__header h2 {
+    font-family: Pretendard;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #ec661a;
+    margin: 0;
+}
+
+.biotech__section__body {
+    padding: 80px 0 0;
+}
+
+.biotech__list-item {
+    margin: 0 0 60px;
+}
+
+.biotech__list-item h4 {
+    font-family: Pretendard;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.19px;
+    text-align: center;
+    color: #ec661a;
+    margin: 0 0 50px;
+}
+
+.biotech__list-item-inner-content {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+}
+
+.biotech__list-item-inner-content .biotech__list-item-inner-img {
+    max-width: 140px;
+    height: auto;
+    width: 100%;
+}
+
+.biotech__list-item-inner-content .biotech__list-item-inner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.biotech__list-item-inner-content p {
+    margin: 0;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.biotech__form__container {
+    padding: 100px 60px 40px 60px;
+    border: 1px solid #FCFCFC;
+    background: #FCFCFC;
+    max-width: 90%;
+    width: 100%;
+    margin: 0px auto 50px;
+}
+
+.biotech__inner__section {
+    max-width: 550px;
+    margin: auto;
+}
+
+.biotech__inner__section h3 {
+    font-family: Pretendard;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.19px;
+    text-align: center;
+    color: #ec661a;
+    margin: 0 0 20px;
+}
+
+.biotech__inner__section form .form__group {
+    margin: 0 0 15px;
+}
+
+.biotech__inner__section form .form__group label {
+    display: block;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+    margin: 0 0 5px;
+}
+
+.biotech__inner__section form .form__group label sup {
+    color: red;
+}
+
+.biotech__inner__section form .form__group input,
+.biotech__inner__section form .form__group select {
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.biotech__inner__section form .form__group .form__group-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 8px;
+}
+
+.biotech__inner__section form .form__group-checkbox-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: 1px solid #D9D9D9;
+}
+
+.biotech__inner__section form .form__group-checkbox-wrapper label {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    justify-content: space-between;
+}
+
+.biotech__inner__section form .form__group-checkbox-wrapper input {
+    width: 20px !important;
+    height: 20px;
+    border: 1px solid #d9d9d9 !important;
+}
+
+.biotech__inner__section form .form__inline-checkbox input {
+    width: 20px;
+    height: 20px;
+}
+
+.biotech__inner__section form .form__inline-checkbox {
+    display: flex;
+    padding: 3px 0;
+    gap: 3px;
+}
+
+.biotech__inner__section form .form__inline-checkbox span {
+    color: #ec661a;
+}
+
+.biotech__inner__section form .form__submit__btn {
+    background: #EC661A0D;
+    border: none;
+    padding: 12px 40px 12px 40px;
+    border-radius: 8px;
+    margin: 30px auto 0;
+    display: block;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.09px;
+    text-align: center;
+    color: #EC661A;
+    cursor: pointer;
+}
+
+
+@media(max-width:768px) {
+    .biotech__header h1 {
+        font-size: 28px !important;
+        line-height: 28px !important;
+    }
+
+    .biotech__content__section {
+        padding: 20px !important;
+    }
+
+    .biotech__section__header span {
+        font-size: 14px !important;
+        line-height: 28px !important;
+    }
+
+    .biotech__section__header h2 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+
+    .biotech__list-item-inner-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biotech__section__body {
+        padding: 40px 0 0 !important;
+    }
+
+    .biotech__list-item h4 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+
+    .biotech__list-item {
+        margin: 0 0 30px;
+    }
+
+    .biotech__form__container {
+        max-width: 100% !important;
+        padding: 20px !important;
+        background: transparent;
+    }
+
+    .biotech__inner__section form .form__group .form__group-select {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form__group-select select {
+        width: calc(33.3% - 6px) !important;
+    }
+
+    .form__group-select select:last-child {
+        width: 100% !important;
+    }
+}

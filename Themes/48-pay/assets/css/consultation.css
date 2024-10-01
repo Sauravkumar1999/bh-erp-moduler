@@ -1,0 +1,139 @@
+body {
+    background: rgba(255, 255, 255, 1);
+    font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+}
+main {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.body-upper-text {
+    width: 65%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.body-upper-text h5 b {
+    color: rgba(253, 111, 34, 1);
+    font-weight: 700;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-form {
+    width: 50%;
+    margin-left: 350px;
+}
+.main-form h4 {
+    color: rgba(253, 111, 34, 1);
+    font-weight: 600;
+    margin-left: -200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.main-form img {
+    margin-top: -4px;
+}
+.form-group #inquiry {
+    width: 100%;
+}
+.form-group {
+    font-size: 18px;
+}
+.form-group b {
+    color: rgba(253, 111, 34, 1);
+    font-size: 18px;
+}
+.main-form .btn.btn-outline-secondary {
+    width: 180px;
+    height: 50px;
+    color: var(--main2, #FD6F22);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    border-radius: 6px;
+    border: 1px solid var(--main2, #FFF);
+    background: rgba(236, 102, 26, 0.05);
+}
+.main-form button {
+    margin-left: 200px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    margin-left: -300px;
+    font-weight: 300;
+}
+.checkbox-label b {
+    font-weight: 500;
+    color: rgba(253, 111, 34, 1);
+}
+
+.checkbox-input {
+    margin-left: -310px;
+    margin-top: -6px;
+}
+
+/* Mobile screens */
+@media  (max-width: 768px) {
+    .body-upper-text {
+        width: 90%;
+        margin-left: 10px;
+        margin-bottom: -50px;
+    }
+    .main-form {
+        width: 90%;
+        margin-left: 15px;
+    }
+    .checkbox-input {
+        margin-left: -150px;
+    }
+    .checkbox-label {
+        margin-left: -150px;
+    }
+    .checkbox-label b{
+        font-size: medium;
+    }
+    .checkbox-container {
+        font-size: 12px;
+    }
+    .main-form button {
+        margin-left: 80px;
+    }
+}

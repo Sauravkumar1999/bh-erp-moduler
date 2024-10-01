@@ -1,0 +1,168 @@
+
+.left-content {
+    width: 520px;
+    height: 276px;
+    gap: 16px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.left-content h3 {
+    font-weight: 700;
+}
+.btn-primary{
+    border-radius: 10px;
+    width: 120px;
+    border: 1px solid rgba(236, 102, 26, 1);
+    background: rgba(236, 102, 26, 1);
+    color: white;
+}
+.text-inside {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card {
+    background-color: white;
+    width: 565px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: -330px;
+    margin-left: 600px;
+}
+.logo-container {
+    margin-top: 118px;
+    margin-left: 1108px;
+}
+.logo-container img {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+/* for slide-1 only */
+.trapezoid {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw; /* Covering half of the screen horizontally */
+    height: 100vh; /* Covering the full height of the screen */
+    background-color: #FD6F22;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.card-content-texts {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.card-content-texts h6 {
+    font-weight: 500;
+}
+.card-content-texts h6 b {
+    color: #FD6F22;
+    font-weight: 500;
+}
+.card-content-texts h5 {
+    margin-top: 20px;
+}
+.card-img img {
+    margin-left:400px;
+    margin-top: -160px;
+    width: 100px;
+}
+.logo-container1 {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 1108px;
+}
+.logo-container1 img {
+    height: 60px;
+    width: 60px;
+}
+
+
+/* for slide-2 only */
+
+.card-content-texts2 h4 b {
+    color: rgba(0, 86, 187, 1);
+}
+.card-img2 img {
+    margin-left:260px;
+    margin-top: -60px;
+    width: 280px;
+}
+.card-content-texts2 {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.card-content-texts2 h5 {
+    margin-top: 20px;
+}
+
+/* for slide-3 only */
+
+.card-content-texts3 h5 {
+    color: rgba(86, 31, 125, 1);
+    font-weight: 800;
+}
+.card-content-texts3 {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.card-img3 img {
+    margin-left:350px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+/* for slide-4 only */
+
+.card-content-texts4 h4 b {
+    color: rgba(144, 195, 31, 1);
+}
+.card-img4 img {
+    margin-left:260px;
+    margin-top: -40px;
+    width: 280px;
+}
+.card-content-texts4 {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.card-content-texts4 h5 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .card {
+        margin-left: 700px;
+        width: 595px;
+        height: 320px;
+    }
+    .left-content {
+        width: 580px;
+        height: 286px;
+        gap: 16px;
+        margin-top: 140px;
+        margin-left: 150px;
+    }
+    .logo-container {
+        margin-top: 78px;
+        margin-left: 1248px;
+    }
+    .logo-container1 {
+        margin-top: 75px;
+        margin-left: 1250px;
+    }
+}
+  
+  
+  
+  
+  
+  

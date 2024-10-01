@@ -1,0 +1,145 @@
+.install-app-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.install-app-container .heading {
+    justify-content: center;
+    text-align: center;
+}
+.install-app-container .heading h3{
+
+    position: relative;
+}
+.install-app-container .heading h3::before{
+    content: "";
+    width: 32px;
+    height: 3px;
+    border-radius: 100px;
+    background-color:#EC661A;
+    position: absolute;
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-50%);
+
+}
+.install-app-container .install-app-content {
+    display: flex;
+    margin-top: 50px;
+    max-width: 354px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.install-app-content .left-mobile-pic img{
+    width: 320px;
+    height: 500px;
+}
+.install-app-content .right-download {
+    width: 214px;
+}
+.install-app-content .right-download
+.btn.btn-secondary {
+    border-radius: 5px;
+    background: var(--main2, #292929);
+    padding: 12px 0px;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    color: var(--Neutral-1, #FFF);
+    margin-bottom: 10px;
+}
+.right-download .button .btn.btn-secondary h6 {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.my-hub-logo-info{
+    max-width: 600px;
+    margin: 60px auto 40px;
+}
+.my-hub-logo-info .picture-data{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.my-hub-logo-info .picture-data img{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.my-hub-logo-info .picture-data h6{
+    font-size: 20px;
+    color: #373737;
+    font-weight: 400;
+}
+.my-hub-logo-info .picture-data h6.orange-title{
+    font-size: 24px;
+    font-weight: 700;
+    color:#EC661A;
+}
+.my-hub-logo-info .btn-container{
+  text-align: center;
+}
+.my-hub-logo-info .btn-container .btn-light-oranger,
+.my-hub-logo-info .btn-container .btn-light-oranger:hover,
+.my-hub-logo-info .btn-container .btn-light-oranger:focus,
+.my-hub-logo-info .btn-container .btn-light-oranger:active{
+    background-color: #fef5ef;
+    width: 100%;
+    font-size: 20px;
+    color: #373737;
+    padding: 16px 40px 16px 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.qr-install-container{
+        max-width: 600px;
+        margin: 60px auto 40px;
+
+}
+.qr-install-container .para{
+    margin: 60px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+}
+
+@media screen and (max-width: 1194px) {
+    .my-hub-logo-info .btn-container .btn-light-oranger,
+.my-hub-logo-info .btn-container .btn-light-oranger:hover,
+.my-hub-logo-info .btn-container .btn-light-oranger:focus,
+.my-hub-logo-info .btn-container .btn-light-oranger:active{
+    font-size: 16px;
+}
+.install-app-container .install-app-content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+}
+div:where(.swal2-icon) {
+    width: 4rem;
+    height: 4em;
+}
+div:where(.swal2-container) .swal2-html-container {
+   margin:  1em 11.6em 2.3em;
+
+}
+
+
+@media screen and (max-width:768px){
+    .footer-container{
+        height: inherit !important;
+    }
+
+    .navbar-footer{
+        height: inherit !important;
+    }
+
+    .footer-sub-container{
+        gap: 0px !important;
+    }
+}

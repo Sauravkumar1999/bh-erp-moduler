@@ -1,0 +1,212 @@
+section {
+    font-family: Pretendard;
+}
+
+.banner {
+    background: linear-gradient(rgba(236, 102, 26, 0.06), rgba(240, 195, 122, 0.08));
+}
+
+.banner .title1 {
+    color: #EC661A !important;
+    font-size: 40px !important;
+    font-weight: 700;
+}
+
+.swal2-popup .swal2-title{
+        font-size: 1.4em !important;
+   }
+
+.title2 {
+    font-size: 32px !important;
+    color: #EC661A !important;
+}
+
+#hanbada_banner {
+    background: linear-gradient(135deg, #FFFAF3 0%, #FFF6EC 100%);
+    font-weight: 700;
+    color: #EC661A;
+}
+
+select {
+    color: #BFBFBF;
+}
+
+select::after {
+    padding: 5px 30px 5px 10px;
+}
+
+#hanbada_banner h2 {
+    font-size: 40px;
+}
+
+#hanbada-consulting {
+    font-weight: 700;
+    color: #EC661A;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 32px;
+    color: #EC661A;
+}
+
+
+.card {
+    width: 100%;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    color: #373737;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 40px 20px;
+}
+
+.card-text-container {
+    height: auto !important;
+}
+
+#hanbada-container {
+    margin-bottom: 80px;
+}
+
+.hanbada-form {
+    width: 70%;
+}
+
+.hanbada-form span {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+
+
+#hanbada-container {
+    background-color: #FCFCFC;
+    height: auto;
+    padding: 60px 100px;
+}
+
+.submit-btn {
+    padding: 12px 60px;
+}
+
+.card span {
+    color: #EC661A;
+    font-weight: 700;
+}
+
+h4,
+.btn-color {
+    color: #EC661A;
+}
+
+.btn-color {
+    background: rgba(236, 102, 26, 0.05);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Pretendard;
+    /* Moved font-family to here */
+    word-wrap: break-word;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group b {
+    color: rgba(253, 111, 34, 1);
+    font-size: 18px;
+}
+
+.input-with-checkbox {
+    background: white;
+    padding: 9px 16px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    width: 100%;
+}
+.input-with-select {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    width: 100%;
+}
+
+.input-with-checkbox input[type="text"] {
+    padding-right: 25px;
+    /* Space for the checkbox */
+}
+
+.colored {
+    color: #EC661A !important;
+
+}
+
+.form-check-input:checked {
+    background-color: #EC661A;
+    border-color: #EC661A;
+}
+
+/* @media(max-width:768px) {
+    .header__wrapper {
+        padding: 15px 10px 10px 10px !important;
+    }
+} */
+
+@media only screen and (max-width: 576px) {
+    section {
+        padding: 60px 0;
+    }
+
+    #hanbada_banner {
+        padding: 60px 50px 0px 50px;
+    }
+
+    #hanbada_banner h2 {
+        font-size: 28px;
+    }
+
+    .banner .title1 {
+        font-size: 28px !important;
+        font-weight: 700;
+    }
+
+
+
+    .img-fluid {
+        width: 335px;
+    }
+
+    .card {
+        font-size: 16px;
+        padding: 28px 20px;
+    }
+
+    .card p {
+        width: 100% !important;
+    }
+
+    #hanbada-container {
+        background: unset;
+        border: none;
+        padding: 0px;
+    }
+
+    .hanbada-form {
+        width: 100%;
+    }
+
+    .gap-mobile {
+        margin-bottom: 10px;
+    }
+
+    .mobile-col {
+        margin: 0px
+    }
+    .col-12.last-select{
+        padding-top: 10px !important;
+    }
+}

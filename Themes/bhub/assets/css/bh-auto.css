@@ -1,0 +1,226 @@
+
+body {
+    background-color: #FFFFFF !important;
+}
+section {
+    font-family: Pretendard;
+}
+
+#hero {
+    background: #EAEAEA;
+    height : 260px;
+    overflow: visible !important;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img-inner {
+    height: 260px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    top: -140px;
+    display: flex;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+}
+.image-container {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-container-second  {
+    width: 198px;
+    height: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-box-wrapper {
+    gap:60px;
+}
+.px-150 {
+    padding:0px 150px;
+}
+.car-details {
+    width: 82%;
+    height: 24px;
+    border: 2px solid #BFBFBF;
+    border-bottom: 0px !important;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    position: relative;
+}
+.car-details-text{
+    color:  #373737;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.54px;
+    background: #FBF1EC;
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    bottom: 10px;
+}
+
+.car-details-second-text{
+        color:  #373737;
+        text-align: center;
+        font-family: Pretendard;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: -0.54px;
+        background: #FBF1EC;
+        width: 78%;
+        position: absolute;
+        left: 12%;
+        bottom: 10px;
+}
+.image-box-wrapper-second{
+    gap :180px
+}
+.inner-content p {
+    margin-bottom: 10px !important;
+}
+.inner-content .title {
+    font-weight: 600;
+}
+.empty_section{
+    padding: 40px;
+}
+.detail-title-page{
+    color: #373737 !important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+.car-details-mobile {
+    display: none;
+    color:  #373737;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.54px;
+
+}
+.car-details-second-text-mobile {
+        display: none;
+        color:  #373737;
+        text-align: center;
+        font-family: Pretendard;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: -0.54px;
+        margin-bottom: 24px;
+}
+
+
+.info .title{
+    color: #EC661A;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.submit-btn{
+    background-color: #EC661A;
+    padding: 12px 60px;
+    color: #FFFFFF;
+}
+
+.info_button_text {
+    color:  #FFF;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.48px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    line-height: 1.5;
+    padding-left: 0px !important
+}
+
+ul li:not(:last-child)::before {
+    content: "•"; /* Use any desired symbol for the bullet, such as a dot */
+    margin-right: 5px; /* Adjust as needed */
+}
+
+ul li:last-child::before {
+    content: "※";
+    margin-right: 5px; /* Adjust as needed */
+}
+@media only screen and (max-width: 576px) {
+    .hero-img-inner{
+        left: 8%;
+    }
+    .empty_section{
+        padding: 5px;
+    }
+    #middle-section{
+        padding-top: 60px;
+    }
+    .car-details-mobile{
+        color: #EC661A;;
+    }
+    #hero {
+        height: 431px;
+    }
+    .car-details{
+        display: none;
+    }
+    section{
+        padding: 2  0px 0;
+
+    }
+    #hero .hero-img img {
+        width: 80% !important;
+    }
+    .car-details-mobile {
+        display: block;
+        margin-bottom: 24px;
+    }
+    .image-box-wrapper-second {
+        gap: 24px;
+        margin-top: 60px;
+    }
+    .car-details-second-text-mobile {
+        color: #EC661A;
+        display: block;
+        margin-bottom: 24px;
+    }
+    .inner-content p {
+        font-size: 14px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+    .info_button{
+        padding: 12px 24px;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    .image-box-wrapper {
+        gap: 40px;
+    }
+
+}

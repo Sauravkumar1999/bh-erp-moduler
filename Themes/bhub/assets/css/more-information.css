@@ -1,0 +1,128 @@
+body {
+    background-color: #ffffff;
+}
+
+#mobile_header {
+    display: none !important;
+}
+
+.header__wrapper {
+    padding: 50px 60px 1.5rem 0 !important;
+    z-index: 9999;
+    top: 0;
+}
+
+.button__group {
+    padding-right: 1.5rem !important;
+}
+
+.button__group .btn-outline-secondary {
+    margin-right: .25rem !important;
+}
+
+.imgs-top {
+    display: block;
+    /* width: 1440px;
+    height: 260px; */
+    width: 100%;
+    margin: 0px auto 20px;
+}
+
+.imgs-1 {
+    display: block;
+    /* width: 1170px;
+    height: 910px; */
+    margin: 20px auto;
+}
+
+.imgs-2 {
+    display: block;
+    /* width: 1170px;
+    height: 988.6px; */
+    margin: 10px auto 20px;
+}
+
+.imgs-3 {
+    display: block;
+    /* width: 1170px;
+    height: 1654.24px; */
+    margin: 10px auto 20px;
+}
+
+.imgs-4 {
+    display: block;
+    width: 778px;
+    height: 1110px;
+    margin: 10px auto 20px;
+}
+
+.imgs-5 {
+    display: block;
+    width: 778px;
+    margin: 10px auto 20px;
+}
+.top{
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(91.21deg, #EAEFF3 0%, #F8FCFD 100%);
+
+}
+.heading{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #373737;
+    font-weight:700;
+}
+@media(max-width:768px) {
+    .imgs-top {
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: 0px auto 20px;
+    }
+    .imgs-1,
+    .imgs-2,
+    .imgs-3,
+    .imgs-5{
+        width: 100%;
+    }
+    .imgs-4{
+        height: 100%;
+        width: 100%;
+    }
+    .heading{
+        font-size: 28px;
+    }
+    .button__group .btn-outline-secondary {
+        margin-right: 0 !important;
+    }
+
+    .header__wrapper {
+        padding: 20px 10px 10px 10px !important;
+    }
+
+    #mobile_header {
+        display: flex !important;
+    }
+
+    #mobile_header {
+        display: flex !important;
+    }
+
+    .button__group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    #desktop_header {
+        display: none;
+    }
+}

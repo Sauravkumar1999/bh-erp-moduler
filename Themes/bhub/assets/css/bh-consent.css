@@ -1,0 +1,224 @@
+
+    body{
+        background: #FFFFFF;
+    }
+    .main_title {
+        font-size: 36px;
+        white-space: normal;
+    }
+    #consent_banner {
+        background-image: url("/images/arrow-up.png");
+        background-size: 3000px;
+        background-position: inherit;
+        background-position-x: 100px;
+        background-color: #eaeaea;
+        height: 312px;
+    }
+
+    .custom-consent{
+        width: 100%;
+        height: 100%;
+        gap: 16px;
+    }
+
+    .text-title{
+        color: #EC661A;
+        font-size: 24px;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+
+    .form-wrapper {
+        margin-top: 32px;
+    }
+
+    .custom-consent-card{
+        border: 1px solid #ececec;
+        border-radius: 10px;
+        padding: 70px;
+    }
+    .custom-consent-card p {
+        margin-bottom: 0px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .custom-collection-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .consent-container {
+        width: 400px;
+        height: 52px;
+        padding: 20px 10px;
+        background: #999999;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex;
+    }
+
+    .consent-text {
+        text-align: center;
+        font-size: 16px;
+        font-family: Pretendard;
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+    }
+
+    .consent-container-alt {
+        height: 72px;
+        background: #F9F9F9;
+
+    }
+    .consent-content{
+        height: 100%;
+        background: #F9F9F9;
+        font-size: 14px;
+    }
+
+
+    .consent-recipient-title{
+        background: #999999;
+        padding: 20px;
+    }
+
+    .consent-text-alt p {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    #cards {
+        padding: 20px !important;
+    }
+    .empty {
+        padding: 10px 0px;
+        background: #fff;
+    }
+    @media only screen and (max-width: 767px) {
+        .imageBox{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .car {
+            order: 2;
+        }
+
+        .logo {
+            order: 1;
+            width: 48%;
+            margin-top: -20px;
+        }
+
+        .text-center.text-title.desktop {
+            display: none;
+        }
+
+        #consent_banner .img-fluid.car {
+            width: 80% !important;
+        }
+        #cards {
+            padding: 10px !important;
+        }
+        .main_title {
+            font-size: 28px !important;
+            padding: 0px 129px;
+            text-align: center;
+            white-space: normal;
+            position: absolute;
+            top: 47px;
+            left: 0;
+            padding-left: 0;
+        }
+        .custom-consent-card {
+            border: 1px solid #ececec;
+            box-shadow: 4px 4px 96px rgba(196, 207, 207, 0.15);
+            border-radius: 10px;
+            padding: 16px 8px;
+        }
+
+        .text-title{
+            font-size: 20px;
+        }
+
+        .text-title {
+            padding: 60px 0;
+            padding-bottom: 0;
+        }
+
+        #details {
+            padding: 0px  !important;
+        }
+
+        .text-container {
+            font-size: 14px;
+        }
+        .consent-heading{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .consent-container{
+            margin-top: 24px;
+            width: 100%;
+        }
+        .consent-text{
+            font-size: 14px;
+        }
+        .form-wrapper {
+            padding: 0px 14px;
+        }
+        .gap-mobile{
+            gap: 24px;
+        }
+
+        .custom-card-height{
+            height: 392px;
+        }
+
+        .custom-card-2-height{
+            height: 142px;
+        }
+        .imageBox{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        div#consent_banner {
+            align-items: start !important;
+            padding: 114px 16px;
+            padding-bottom: 0;
+            height: auto;
+            position: relative;
+        }
+        .title2 {
+            padding-top: 35px !important;
+        }
+        .formStyle {
+            margin-top: 0px !important;
+        }
+        .bd-example {
+            display: flex;
+        }
+        .input-with-checkbox {
+            display: flex;
+            column-gap: 10px;
+        }
+        button#submitBtn {
+            background-color: #ec661a !important;
+            color: #fff !important;
+            font-size: 14px !important;
+        }
+    }
+    @media screen and (max-width: 1340px){
+        #cards .d-flex{
+            flex-wrap: wrap;
+        }
+        .imageBox {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }

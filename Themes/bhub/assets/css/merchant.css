@@ -1,0 +1,111 @@
+body {
+    background: rgba(255, 255, 255, 1);
+    font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+}
+.container-fluid {
+    width: 100%;
+}
+
+
+.main-card-container img {
+    margin-top: 20px;
+}
+.btn.btn-outline-secondary {
+    color: var(--main2, #FD6F22);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid var(--main2, #FD6F22);
+    background: var(--Neutral-1, #FFF);
+}
+
+.upper-money-cards{
+    margin-top: 140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text-above-cards {
+    margin-left: -830px;
+}
+.upper-money-cards h2{
+    color: rgba(253, 111, 34, 1);
+    font-weight: 800;
+}
+.upper-money-cards.main-card-container {
+    margin-top: 50px;
+}
+.below-card-content {
+    width: 1,170px;
+    height: 120px;
+    padding: 28px, 0px, 28px, 0px;
+    border-radius: 8px;
+    gap: 10px;
+    padding-top: 3px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.middle-text-left {
+    margin-top: 310px;
+}
+.right-text {
+    margin-top: 310px;
+}
+.below-card-content h2{
+    color: rgba(253, 111, 34, 1);
+    font-weight: 800;
+    margin-left: 120px;
+}
+.below-card-content ul{
+    justify-content: center;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+/* mobile view */
+
+@media  (max-width: 768px) {
+
+    .upper-money-cards {
+        margin-top: 50px;
+    }
+    .upper-money-cards h2{
+        color: rgba(253, 111, 34, 1);
+        font-weight: 800;
+    }
+
+    .text-above-cards {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .main-card-container img{
+        width: 310px;
+        height:160px;
+    }
+
+    .below-card-content {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .below-card-content ul {
+        margin-left: 0;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    
+}
+
+
+/* @media (min-width: 768px) {
+    .button-small-screens {
+      display: none;
+    }
+  } */

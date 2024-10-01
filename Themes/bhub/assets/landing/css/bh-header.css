@@ -1,0 +1,88 @@
+.navbar-container {
+    width: 1440px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.first-container {
+    background: rgba(236, 102, 26, 1);
+    width: 100%;
+    padding: 10px 0;
+    color: #FFF;
+    height: 40px;
+}
+.first-container > .container{
+    text-align: right;
+    margin-right: 190px;
+}
+.first-container img {
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.second-container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.second-container .logo {
+    width: 20%;
+    margin-top: -5px;
+}
+.second-container .content-middle {
+    width: 60%;
+    text-align: center;
+}
+.second-container .button {
+    width: 20%;
+}
+
+.content-middle {
+    display: flex;
+    gap: 16px;
+    margin-left: 20px;
+}
+.content-middle h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col-a, .col-b, .col-c, .col-d, .col-e {
+    margin-right: 10px;
+}
+
+.btn.btn-primary {
+    width: 100px;
+    height: 40px;
+    background: var(--main2, #FD6F22);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid var(--main2, #FD6F22);
+    color: var(--Neutral-1, #FFF);
+    margin-top: -20px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .content-middle {
+        margin-left: 100px;
+    }
+}

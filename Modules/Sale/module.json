@@ -1,0 +1,16 @@
+{
+    "name": "Sale",
+    "alias": "sale",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Sale\\Providers\\SaleServiceProvider",
+        "Modules\\Sale\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": []
+}

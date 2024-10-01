@@ -1,0 +1,91 @@
+/* ---Sliding from right to left modal---- */
+
+.modal.DTED.fade.show .modal-dialog {
+  right: 0 !important;
+  transform: translateX(-50%);
+}
+.modal.DTED .modal-content {
+  height: 100%;
+  overflow: auto;
+  border-radius: 0;
+}
+.modal.DTED .modal-dialog {
+  position: fixed;
+  margin: auto;
+  height: 100%;
+
+  transform: translate3d(0%, 0, 0);
+}
+.modal.DTED.fade.show .modal-dialog {
+  transform: translateX(0%);
+}
+.modal.DTED.fade .modal-dialog {
+  right: -320px;
+
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+span.business_name_button {
+  cursor: pointer;
+}
+.close-modal-button {
+  width: 32px;
+  height: 32px;
+  padding: 7px;
+  border-radius: 6px;
+  gap: 10px;
+  background-color: #5c464614;
+  border: #EC661A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-table {
+  width: 100%;
+  border-color: #DBDADE;
+}
+.company-table tr {
+  border-bottom: 1px solid #DBDADE;
+}
+
+.company-table td {
+  text-align: left !important;
+  padding: 8px 20px 8px 20px;
+  font-size: 16px;
+  color: #2B2B2B;
+  line-height: 19.09px;
+  font-weight: 400;
+  font-family: Pretendard;
+}
+button#compay_button {
+  padding: 10px 20px 10px 20px;
+  font-weight: 500;
+  line-height: 18px;
+  font-size: 18px;
+}
+.button_div {
+  padding: 16px;
+  text-align: center;
+}
+#company-details .modal-header{
+    border-bottom: 1px solid #DBDADE;
+    padding: 16px;
+}
+
+td.titles {
+    font-weight: 600 !important;
+    font-size: 16px;
+    line-height: 19.09px;
+    color: #2B2B2B;
+    background: #EC661A12;
+     font-family: Pretendard;
+}
+button.close-modal-button span {
+    color: #646464;
+    font-size: 18px;
+}
+div#company-details .modal-body {
+    padding: 16px;
+    gap: 10px;
+}

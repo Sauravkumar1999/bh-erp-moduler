@@ -1,0 +1,367 @@
+
+.content-text .col-b h5 {
+    color: rgba(253, 111, 34, 1);
+}
+.upper-money-cards{
+    margin-top: 140px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text-above-cards {
+    margin-left: 26px;
+    text-align: left;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.upper-money-cards h2 {
+    color: rgba(253, 111, 34, 1);
+    font-weight: 800;
+}
+.upper-money-cards.main-card-container {
+    margin-top: 50px;
+}
+.below-card-content {
+    width: 1,170px;
+    height: 120px;
+    padding: 28px, 0px, 28px, 0px;
+    border-radius: 8px;
+    gap: 10px;
+    padding-top: 3px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-text-left {
+    margin-top: 310px;
+}
+.right-text {
+    margin-top: 310px;
+}
+.below-card-content h2{
+    color: rgba(253, 111, 34, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.42px;
+    /* margin-left: 120px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.below-card-content ul{
+    justify-content: center;
+    text-align: left;
+    margin-left: 48px;
+    /* margin-top: 30px; */
+    font-size: 20px;
+    padding-left: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-card-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.main-card-container .picture-card {
+    width: 90%;
+}
+.main-card-container .picture-card img{
+    width: 100%;
+}
+
+.below-card-content .below-card-content-container {
+    margin-left: 26px !important;
+    width: 90%;
+    background-color: rgba(250, 250, 250, 1);
+    padding: 28px 0px 28px 0px;
+}
+
+.below-card-content-container h2 {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.container .franchise-consultation {
+    margin-top: 120px;
+    width: 90%;
+    text-align: center;
+}
+
+.container .franchise-consultation-container {
+    width: 100%;
+}
+
+.container .franchise-consultation .franchise-consultation-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #EC661A;
+}
+.container .franchise-consultation .franchise-consultation-container h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.container .franchise-consultation .text-above-cards {
+    margin-left: 13px;
+}
+.franchise-consultation .text-above-cards h2{
+    color: rgba(253, 111, 34, 1);
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 32px;
+}
+
+.franchise-consultation .form-container {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 650px;
+}
+.franchise-consultation .form-container label {
+    text-align: left;
+    width: 100%;
+    margin: 5px 0px;
+}
+.franchise-consultation .form-container input[type="input"], textarea {
+    width: 100%;
+}
+.franchise-consultation .form-container .form-group {
+    margin: 20px 0px;
+}
+.franchise-consultation .form-container .checkbox-container {
+    text-align: left;
+}
+
+.franchise-consultation .form-container button {
+    background-color: rgba(236, 102, 26, 0.05);
+    color: rgba(236, 102, 26, 1);
+    border-bottom: 3px;
+    height: 60px;
+    padding: 12px 100px 12px 100px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.09px;
+    margin: 10px;
+}
+
+.franchise-consultation .affiliate-assistant {
+    /* margin-top: 120px; */
+    min-height: 226px;
+    margin-bottom: 60px;/*TODO*/
+}
+.franchise-consultation .affiliate-assistant .text-above-cards{
+    margin-bottom: 30px;
+}
+
+.affiliate-assistant .btn{
+    display: inline-block;
+    min-width: 30%;
+    height: 69px;
+    border-radius: 8px;
+    padding: 20px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(236, 102, 26, 0.05);
+    color: rgba(236, 102, 26, 1);
+}
+
+.affiliate-assistant .button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.affiliate-assistant .button-container .button-group2, .button-group1{
+    text-align: left;
+    width: 100%;
+}
+
+.form-group > label img{
+    position: relative;
+    top: -5px;
+}
+
+#footer-container{
+    display: none !important;
+}
+
+/* mobile view */
+
+@media  (max-width: 768px) {
+
+    .upper-money-cards {
+        margin-top: 50px;
+    }
+    .upper-money-cards h2{
+        color: rgba(253, 111, 34, 1);
+        font-weight: 800;
+    }
+
+    .text-above-cards {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .main-card-container .picture-card img{
+        width: 242px;
+        height:160px;
+    }
+
+    .below-card-content {
+        width: 100%;
+        height: auto;
+        /* padding: 10px; */
+        margin-top: 30px;
+    }
+
+    .below-card-content ul {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        font-size: 16px;
+
+    }
+    .container-inner .buttons {
+        display: none;
+    }
+
+    .container-inner {
+        width: 100%;
+        position: relative;
+        top: auto;
+        left: auto;
+        justify-content: center;
+    }
+    .container-inner img {
+        margin-top: 5px;
+        width: 150px;
+        height: 18px;
+    }
+    h2 {
+        font-size: 20px !important;
+        text-align: center;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .container-inner .content-text {
+        display: none;
+    }
+    .container-inner .buttons {
+        display: none;
+    }
+    .container-inner.content-text h4 {
+        color: rgba(253, 111, 34, 1);
+    }
+    .container-inner.buttons {
+        text-align: center;
+    }
+    .btn.btn-outline-secondary {
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .button-small-screens {
+        margin-left: 70px;
+    }
+    .content-text {
+        width: 100%;
+        padding-left: 0;
+    }
+    .content-text .col-a {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .content-text .col-b {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .below-card-content-container h2 {
+        text-align: center;
+    }
+
+    .franchise-consultation .form-container {
+        width: 100%;
+    }
+
+    .franchise-consultation .container {
+        padding: 0px;
+    }
+
+    .main-card-container .picture-card img {
+        height: auto;
+    }
+
+    .main-card-container .picture-card {
+        width: auto;
+        margin: auto;
+    }
+
+    .below-card-content .below-card-content-container {
+        margin-left: 0px !important;
+        width: 100%;
+    }
+
+    .container .franchise-consultation {
+        margin-top: 0px;
+    }
+
+    .franchise-consultation .form-container {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19.09px;
+    }
+
+    .franchise-consultation .form-container .agreement-label {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.71px;
+    }
+
+    .affiliate-assistant .button-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .affiliate-assistant .btn {
+        width: 100%;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.09px;
+        color: rgba(236, 102, 26, 1);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .button-small-screens {
+      display: none;
+    }
+  }

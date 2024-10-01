@@ -1,0 +1,14 @@
+{
+    "name": "Bulletin",
+    "alias": "bulletin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Bulletin\\Providers\\BulletinServiceProvider",
+        "Modules\\Bulletin\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

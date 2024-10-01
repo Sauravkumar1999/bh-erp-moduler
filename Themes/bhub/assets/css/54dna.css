@@ -1,0 +1,83 @@
+section {
+    font-family: Pretendard;
+}
+
+.banner {
+    background: linear-gradient(91.87deg, rgba(247, 177, 10, 0.03) 0%, rgba(251, 221, 24, 0.05) 47.94%, rgba(107, 198, 21, 0.03) 100%);
+    padding: 70px 0px;
+}
+
+.banner .title1 {
+    color: #373737 !important;
+    font-size: 40px !important;
+    font-weight: 700;
+}
+
+.title2 {
+	padding-top: 70px;
+    font-size: 32px !important;
+    color: #EC661A !important;
+}
+
+#dna .headding1{
+	font-family: Pretendard;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 23.87px;
+	padding-top: 55px;
+}
+
+ul li{
+	font-family: Pretendard;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: -0.03em;
+	margin-top: 10px;
+}
+
+.dna-btn{
+	padding: 20px 60px 20px 60px;
+	gap: 10px;
+	border: 1px solid #EC661A;
+	border-radius: 8px;
+	background: #EC661A;
+	font-family: Pretendard;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.09px;
+	text-align: center;
+	color: #fff;
+	margin: 55px 0px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  
+    .banner .title1 {
+        font-size: 28px !important;
+        font-weight: 700;
+    }
+
+    .banner{
+    	padding: 60px 0px;
+    }
+
+    .banner .banner_img1{
+    	margin-top: 40px;
+    }
+
+    .title2{
+    	padding-top: 20px;
+    	font-size: 20px !important;
+    	line-height: 28px;
+    }
+
+    #dna .headding1{
+    	padding-top: 40px;
+    }
+
+    .dna-btn{
+    	margin: 35px 0px 40px 0px;
+    }
+}

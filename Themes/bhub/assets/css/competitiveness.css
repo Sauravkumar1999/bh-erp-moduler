@@ -1,0 +1,204 @@
+.competitive-container {
+    margin-top: 100px;
+}
+
+.competitive-container .heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.competitive-container .first-content {
+    margin-top: 60px;
+}
+
+.competitive-container .first-content h5 img {
+    width: 32px;
+}
+
+.competitive-container .first-content h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+.competitive-container .first-content .first-pictures {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.competitive-container .first-content .first-pictures .picture-data {
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture-data h6 b {
+    color: var(--main2, #EC661A);
+}
+
+.picture-data img {
+    margin-bottom: 20px;
+}
+
+
+.competitive-container .second-content h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+.competitive-container .second-content h5 img {
+    margin-top: -10px;
+}
+
+.competitive-container .second-content .number {
+    width: 32px;
+    margin-top: 10px;
+}
+
+.second-picture {
+    justify-content: center;
+    text-align: -webkit-center; /* Chrome */
+    text-align: -moz-center; /* Firefox */
+    margin-top: 60px;
+}
+
+.data-cards {
+    width: 100%;
+    /* margin-left: 640px; */
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.data-cards .card {
+    display: flex;
+    width: 350px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+    margin-left: 370px;
+}
+
+.data-cards .card h6 {
+    color: var(--main2, #EC661A);
+    font-weight: 600;
+}
+
+
+
+.first-content .business-below-content2 .content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 28px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 120px; */
+}
+
+.first-content .business-below-content2 .content img {
+    width: 700px;
+}
+
+/* below is for mobile. */
+@media screen and (max-width: 768px) {
+    .competitive-container {
+        margin-top: 25px;
+    }
+
+    .competitive-container .first-content h5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .competitive-container .second-content h5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .competitive-container .second-content h5 img.arrow {
+        transform: rotate(90deg);
+    }
+
+    .competitive-container .first-content .first-pictures {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .competitive-container .first-content .first-pictures .picture-data {
+        margin: auto;
+    }
+
+    .competitive-container .business-below-content .content {
+        margin: 10px;
+        gap: 8px !important;
+    }
+
+    .competitive-container .business-below-content .content h6 {
+        font-family: "Pretendard";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .first-content .business-below-content2 .content img {
+        width: 100%;
+        margin: 20px;
+
+    }
+
+    .second-content .second-picture .data-cards .card {
+        display: none;
+    }
+
+    .second-picture {
+        display: flex;
+        text-align: -webkit-center; /* Chrome */
+        text-align: -moz-center; /* Firefox */
+        justify-content: center;
+        align-items: center;
+        /* height: 200px; */
+
+    }
+
+    .third-content {
+        margin-left: 20px !important;
+        margin-right: 20px;
+        text-align: -webkit-center; /* Chrome */
+        text-align: -moz-center; /* Firefox */
+    }
+
+    .second-content .data-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid pink;
+        display: none;
+
+    }
+
+    .business-below-content2 {
+        margin: 10px;
+    }
+
+
+
+}

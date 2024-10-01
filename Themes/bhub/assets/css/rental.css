@@ -1,0 +1,204 @@
+
+    section {
+        font-family: Pretendard;
+    }
+
+    .swal2-popup .swal2-title{
+        font-size: 1.4em !important;
+   }
+   
+    .rental_banner  {
+        padding: 45px 300px;
+        background: linear-gradient(91deg, #FED 0%, #FFF8ED 100%);
+        margin-top: 0px;
+    }
+    .rental_banner .title1 {
+        color: #EC661A !important;
+        font-size: 40px !important;
+        font-weight: 700;
+    }
+    .title2 {
+        font-size: 32px !important;
+        color: #EC661A !important;
+        margin-bottom: 60px;
+    }
+    .bg-round{
+        background: #FCFCFC;
+        border-radius: 50%;
+        height: 204px;
+        width: 204px;
+        padding: 33px;
+    }
+    .bg-round img{
+        height: 100%;
+        width: 100%;
+    }
+    .dashed_bg {
+        position: relative;
+    }
+    .dashed {
+        height: 10px;
+        border-bottom: 2px dashed #FC833F;
+        position: absolute;
+        width: 100%;
+        top: 35%;
+    }
+
+    select {
+        color: #BFBFBF;
+    }
+    select::after {
+        padding: 5px 30px 5px 10px;
+    }
+
+    ul {
+        list-style-type: none; /* Remove default bullets */
+        line-height: 1.5;
+        padding-left: 0px !important
+    }
+
+    ul li:not(:last-child)::before {
+        content: "•"; /* Use any desired symbol for the bullet, such as a dot */
+        margin-right: 5px; /* Adjust as needed */
+    }
+
+    ul li:last-child::before {
+        content: "※";
+        margin-right: 5px; /* Adjust as needed */
+    }
+
+    .thumb-images {
+        position: relative;
+
+    }
+    .thumb-images-text {
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .thumb-images img {
+        border-radius: 10px;
+
+    }
+
+    .rental-form {
+        width: 70%;
+    }
+
+    .dot {
+        bottom: 20px;
+        font-weight: 900;
+        position: absolute;
+    }
+
+    .submit-btn{
+        padding: 12px 60px;
+    }
+
+    h4,
+    .btn-color {
+        color: #EC661A;
+    }
+
+    .btn-color {
+        background: rgba(236, 102, 26, 0.05);
+        font-size: 16px;
+        font-weight: 700;
+        font-family: Pretendard; /* Moved font-family to here */
+        word-wrap: break-word;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .input-with-checkbox {
+        background: white;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid  #D9D9D9;
+        width: 100%;
+        color: #212529;
+    }
+
+    .colored {
+        color:  #EC661A !important;
+
+    }
+    .form-check-input:checked {
+        background-color: #EC661A;
+        border-color: #EC661A;
+    }
+
+    .info {
+        width: 70%;
+    }
+    .info_solution {
+        width: 50%;
+    }
+
+    .thumb-images  {
+        margin-bottom: 24px;
+    }
+    .icon-grid{
+        display: grid;
+        justify-content: center;
+        grid-template-columns :repeat(5,1fr);
+    }
+    @media only screen and (max-width: 576px) {
+
+        .bg-round{
+            height: 160px;
+            width: 160px;
+            margin: 0 auto;
+        }
+        .title2 {
+            margin-bottom: 24px;
+            font-size: 20px;
+        }
+        .info {
+            width: 85%;
+        }
+        .info_solution {
+            width: 85%;
+        }
+
+        .rental_banner .title1 {
+            font-size: 28px !important;
+            font-weight: 700;
+        }
+        .icon-grid{
+            display: grid;
+            grid-template-columns :repeat(1,1fr);
+        }
+        .dashed_bg{
+            display: none;
+
+        }
+        .rental_banner{
+            padding: 20px;
+            margin-top: 0px
+        }
+
+        .img-fluid {
+            width: 335px;
+        }
+
+        .thumb-images  {
+            margin-bottom: 10px;
+        }
+
+        .rental-form {
+            width: 100%;
+        }
+        .gap-mobile {
+            margin-bottom: 24px;
+        }
+        .mobile-col {
+            margin: 0px
+        }
+    }
+

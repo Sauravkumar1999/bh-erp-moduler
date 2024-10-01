@@ -1,0 +1,300 @@
+
+.left-content {
+    width: 520px;
+    height: 276px;
+    gap: 16px;
+    margin-top: 130px;
+    /* margin-left: 100px; */
+}
+.left-content h3 {
+    font-weight: 700;
+}
+.btn-primary{
+    border-radius: 10px;
+    width: 120px;
+    border: 1px solid rgba(236, 102, 26, 1);
+    background: rgba(236, 102, 26, 1);
+    color: white;
+}
+.text-inside {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card {
+    background-color: white;
+    width: 565px;
+    max-height: 300px;
+    border-radius: 20px;
+    margin-top: -330px;
+    margin-left: 600px;
+}
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 118px;
+    margin-right: 5px;
+    padding-right: 15%;
+}
+.logo-container img {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+/* for slide-1 only */
+.trapezoid {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw; /* Covering half of the screen horizontally */
+    height: 100vh; /* Covering the full height of the screen */
+    background-color: #FD6F22;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.card-content-texts {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.card-content-texts h6 {
+    font-weight: 500;
+}
+.card-content-texts h6 b {
+    color: #FD6F22;
+    font-weight: 500;
+}
+.card-content-texts h5 {
+    margin-top: 20px;
+}
+.card-img img {
+    margin-left:400px;
+    margin-top: -160px;
+    width: 100px;
+}
+.logo-container1 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 118px;
+    margin-right: 5px;
+    padding-right: 15%;
+}
+.logo-container1 img {
+    height: 60px;
+    width: 60px;
+}
+
+
+/* for slide-2 only */
+
+.card-content-texts2 h4 b {
+    color: rgba(0, 86, 187, 1) !important;
+}
+.card-img2 img {
+    margin-left:260px;
+    margin-top: -60px;
+    width: 280px;
+}
+.card-content-texts2 {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.card-content-texts2 h5 {
+    margin-top: 20px;
+}
+
+/* for slide-3 only */
+
+.card-content-texts3 h5 {
+    color: rgba(86, 31, 125, 1) !important;
+    font-weight: 800;
+}
+.card-content-texts3 {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.card-img3 img {
+    margin-left:350px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+/* for slide-4 only */
+
+.card-content-texts4 h4 b {
+    color: rgba(144, 195, 31, 1) !important;
+}
+.card-img4 img {
+    margin-left:260px;
+    margin-top: -40px;
+    width: 280px;
+}
+.card-content-texts4 {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.card-content-texts4 h5 {
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 595px;
+        height: 320px;
+    }
+    .left-content {
+        width: 580px;
+        height: 286px;
+        gap: 16px;
+        margin-top: 140px;
+    }
+    .logo-container {
+        margin-top: 67px;
+    }
+    .logo-container1 {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .left-content{
+        width:auto;
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 20px;
+        z-index: 1;
+        text-align: center;
+    }
+    .card{
+        width: auto;
+        margin-top: 8%;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: row;
+    }
+
+    .image__btn{
+        justify-content: center !important;
+        margin: 30px 0 0 !important;
+    }
+
+    .left-content p {
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+
+    .left-content h3{
+        text-align: center !important;
+        font-size: 24px !important;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img {
+        width: auto;
+        margin-left: 0px;
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .card-img img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 60px;
+    }
+    .card-img2, .card-img3, .card-img4 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: end !important;
+    }
+    .card-img2 img{
+        margin-left: -10px;
+        margin-top: 0;
+        width: 90px;
+    }
+    .card-img3 img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 75px;
+        padding-bottom: 20px;
+    }
+    .card-img4 img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100px;
+        padding-bottom: 20px;
+    }
+    .trapezoid{
+        position: fixed;
+        top: 20%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FD6F22;
+        /* clip-path: polygon(-35% 100%, 100% 0%, 100% 100%, 0% 100%); */
+        clip-path: polygon(-35% 100%, 100% 20%, 100% 100%, 0% 100%);
+    }
+    .card-content-texts, .card-content-texts2, .card-content-texts3, .card-content-texts4 {
+        margin-left: 0px;
+        padding: 20px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+    .card-content-texts h6, .card-content-texts2 h6, .card-content-texts3 h6, .card-content-texts4 h6 {
+        font-weight: 300;
+    }
+    .card-content-texts h6 b, .card-content-texts2 h6 b, .card-content-texts3 h6 b, .card-content-texts4 h6 b{
+        color: #FD6F22;
+        font-weight: 300;
+    }
+    .card-content-texts h4 b, .card-content-texts2 h4 b, .card-content-texts3 h4 b, .card-content-texts4 h4 b {
+        color: #FD6F22;
+        font-weight: bold;
+    }
+    .card-content-texts h5, .card-content-texts2 h5, .card-content-texts3 h5, .card-content-texts4 h5 {
+        margin-top: 10px;
+    }
+
+    .h4, h4{
+        font-weight: 400 !important;
+        font-size: 16px !important;
+    }
+    .h5, h5 {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+
+    .card-content-texts h6 {
+        font-size: 14px;
+        font-weight: 500 !important;
+    }
+    .card-content-texts2 h6 {
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+
+    .card-content-texts3 h5 {
+        font-weight: 700 !important;
+    }
+    .card-content-texts3 h6 {
+        font-size: 14px;
+        font-weight: 400 !important;
+    }
+    .card-content-texts3 h7 {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+
+    .card-content-texts4 h6 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .card-content-texts4 h6 b{
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+}

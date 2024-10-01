@@ -1,0 +1,161 @@
+.below-header {
+    background: linear-gradient(90deg, rgba(236, 102, 26, 0.05) 0%, rgba(236, 102, 26, 0.03) 100%);
+    display: flex;
+    width: 100%;
+    height: 44px;
+}
+
+.row .col-12 .cus__card__text {
+    padding: 0px 20px 20px;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #373737;
+    margin: 0;
+}
+
+.swal2-popup .swal2-title {
+    font-size: 1.4em !important;
+}
+
+.below-header h6 {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.below-header img {
+    margin-top: -3px;
+}
+
+.main-container {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-container .main-heading {
+    text-align: center;
+    align-items: center;
+}
+
+.main-container.line img {
+    height: 3px;
+    width: 45px;
+}
+
+.cards-container {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card .share-icon {
+    text-align: right;
+}
+
+.card-img-top {
+    height: 100px;
+    width: auto;
+    margin: 0 0 10px;
+    object-fit: scale-down;
+}
+
+.card-image {
+    text-align: center;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+    border-top: 5px solid var(--main2, #FD6F22);
+}
+
+.card-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+.card-detail-container:hover {
+    cursor: pointer;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.card-body .card-title {
+    color: var(--main2, #FD6F22);
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-body .card-text {
+    color: var(--main_taxt, #373737);
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card .line-break {
+    border-bottom: 1px solid rgb(219, 216, 216);
+    margin-top: 5px;
+    width: 90%;
+}
+
+.main-container .button {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.main-container .button .btn.btn-primary {
+    width: 150px;
+    height: 40px;
+    background: var(--main2, #FD6F22);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid var(--main2, #FD6F22);
+    color: var(--Neutral-1, #FFF);
+    margin-top: 40px;
+}
+
+.swal2-html-container {
+    padding-bottom: 10px !important;
+}
+
+@media screen and (min-width: 1440px) {
+    .cards-container {
+        margin: auto !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards-container {
+        margin: auto !important;
+    }
+
+    .main-container {
+        margin-top: 20px;
+    }
+}

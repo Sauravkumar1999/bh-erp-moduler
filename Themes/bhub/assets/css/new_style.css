@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('../fonts/Pretendard-Bold.woff2') format('woff2'),
+        url('../fonts/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('../fonts/Pretendard-Medium.woff2') format('woff2'),
+        url('../fonts/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('../fonts/Pretendard-Regular.woff2') format('woff2'),
+        url('../fonts/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,img{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	max-width: 100%;
+	max-height: auto;
+}
+
+.header .btns{
+	padding: 50px 60px 0 0;
+	font-family: "Pretendard-Medium";
+}
+
+.header .btn1{
+	border: 1px solid #EC661A;
+	color: #EC661A;
+	background: #ffffff;
+	border-radius: 6px;
+}
+
+.header .btn2{
+	color: #ffffff;
+	background: #EC661A;
+	border-radius: 6px;
+}
+
+.btns button{
+	width: auto;
+}
+
+#menubtn{
+	background-color: transparent;
+	border-width:0px;
+}
+
+.banner{
+	background: linear-gradient(rgba(236, 102, 26, 0.06), rgba(240, 195, 122, 0.08));
+	padding-top: 25px;
+}
+
+.swal2-popup .swal2-title{
+    font-size: 1.4em !important;
+}
+   
+.banner .title1{
+	color: #373737;
+	font-family: "Pretendard-Medium";
+	font-size: 20px;
+}
+
+.banner .title2{
+	color: #EC661A;
+	font-family: "Pretendard-Bold";
+	font-size: 40px;
+}
+
+.banner .banner_img1{
+	width: 285px;
+}
+
+.headding h2{
+	font-size: 32px;
+	text-align: center;
+	color: #EC661A;
+	line-height: 38.19px;
+	font-family: "Pretendard-Bold";
+	font-weight: 700;
+	margin: 60px 0px 10px 0px !important;
+}
+
+.headding .box{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	padding: 20px 40px 20px 40px;
+	gap: 10px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 40px;
+	font-family: "Pretendard-Regular";
+}
+
+.headding .a_center{
+	text-align: center;
+}
+
+.headding .line{
+	width: 24px;
+	border: 2px solid #EC661A;
+	border-width: 2px 0px 0px 0px;
+	margin: 20px auto;
+}
+
+.headding p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #373737;
+}
+
+.btn_submit{
+	color: #ffffff !important;
+	background: #EC661A !important;
+	border-radius: 6px;
+	font-size: 16px;
+	font-family: "Pretendard-Regular";
+	padding: 16px 40px 16px 40px;
+	margin: 10px 0px 50px 0px;
+}
+
+.text_data{
+	text-decoration: underline;
+	font-family: "Pretendard-Regular";
+	font-size: 20px;
+	color: #373737;
+}
+
+
+/*knee stem cell*/
+
+.pagename{
+	background: linear-gradient(rgba(236, 102, 26, 0.06), rgba(240, 195, 122, 0.08));
+	padding: 50px 0px;
+}
+
+.pagename .title2{
+	color: #EC661A;
+	font-family: "Pretendard-Bold";
+	font-size: 40px;
+}
+
+.pagetitle{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.pagetitle .title1{
+	color: #373737;
+	font-family: "Pretendard-Regular";
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.pagetitle .title2{
+	color: #EC661A;
+	font-family: "Pretendard-Bold";
+	font-size: 32px;
+	margin-bottom: 80px;
+	padding-bottom: 5px;
+}
+
+.pagetitle #title_bg{
+	background: linear-gradient(180deg, #fff 47%, #EC661A0D 47%, #EC661A0D 100%);
+	/*margin: 0px 190px;*/
+	margin: 0px 162px;
+}
+
+.pagetitle .knee_stem_cell_details{
+	font-family: "Pretendard-Medium";
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+	color: #373737;
+	max-width : 635px;
+}
+
+.knee_stem_cell_form .form-section{
+	background: #FCFCFC;
+	margin-bottom: 40px;
+}
+.pagetitle .knee_stem_cell_details span{
+	font-family: "Pretendard-Medium";
+	font-size: 16px;
+	line-height: 24px;
+	color: #EC661A;
+}
+
+.knee_stem_cell_form .title2{
+	color: #EC661A;
+	font-family: "Pretendard-Bold";
+	font-size: 32px;
+}
+
+.knee_stem_cell_form{
+	margin-top: 90px;
+	font-family: "Pretendard-Medium";
+	font-size: 16px;
+	line-height: 19.09px;
+
+}
+
+.knee_stem_cell_form span{
+	font-family: "Pretendard-Medium";
+	font-size: 16px;
+	line-height: 24px;
+	color: #EC661A;
+}
+
+.knee_stem_cell_btn{
+	padding: 12px 40px 12px 40px;
+	border-radius: 8px;
+	background: #EC661A0D;
+	color: #EC661A;
+	font-size: 16px;
+	font-family: "Pretendard-Bold";
+}
+
+.knee_stem_cell_btn:hover{
+	background: #EC661A0D;
+	color: #EC661A;
+}
+
+.sr_right{
+	padding-right: 0px;
+}
+
+.sr_left{
+	padding-left: 6px;
+}
+
+
+/*safety cover*/
+
+
+.safety_cvr_banner{
+	background: #F3F9FA;
+	padding: 20px 0px;
+}
+
+.safety_cvr_banner .title1{
+	font-family: "Pretendard-Bold";
+	font-size: 40px;
+	line-height: 47.73px;
+}
+
+#r_dot{
+	list-style: none;
+}
+
+.sr_ul ul{
+	padding-left: 1rem !important;
+}
+
+.sr_ul p i {
+	color: #EC661A;
+    font-size: 20px !important;
+}
+
+.gallery img{
+	border-radius: 10px;
+}
+
+.safety_cvr_form{
+	background: #FCFCFC;
+	padding: 80px 0px;
+	border: 1px solid #F0F0F0;
+	border-radius: 8px;
+}
+
+
+/*interior*/
+
+.banner .title_interior{
+	font-family: "Pretendard-Bold";
+	font-size: 40px;
+	line-height: 47.73px;
+}
+
+.interior_details{
+	font-family: Pretendard-Bold;
+	font-size: 20px;
+	line-height: 23.87px;
+	text-align: center;
+	color: #373737;
+}
+
+.rd{
+	list-style: none;
+}
+
+.skeeper_cvr_banner{
+	background: #F1FBFF;
+	padding: 20px 0px 0px;
+}
+
+.skeeper_cvr_banner .title1{
+	font-family: "Pretendard-Bold";
+	font-size: 40px;
+	line-height: 47.73px;
+}
+
+
+.skeeper_btn_end{
+	padding: 20px 40px;
+	gap: 10px;
+	border-radius: 6px;
+	background: #EC661A;
+	color: #fff;
+	font-family: Pretendard-Bold;
+	font-size: 24px;
+	line-height: 28.64px;
+}
+
+.skeeper_btn_end:hover{
+	background: #EC661A;
+	color: #fff !important;
+}
+.form-check-input:checked {
+	background-color: #EC661A;
+	border-color: #EC661A;
+}

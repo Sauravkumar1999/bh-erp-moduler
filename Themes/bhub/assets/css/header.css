@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 130px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.container-inner {
+    display: flex;
+    gap: 50px;
+}
+
+.content-text {
+    display: flex;
+    gap: 16px;
+}
+
+.col-a, .col-b, .col-c {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: -10px;
+}
+
+.btn.btn-outline-secondary {
+    color: var(--main2, #FD6F22);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid var(--main2, #FD6F22);
+    background: var(--Neutral-1, #FFF);
+}
+
+@media screen and (max-width: 768px) {
+    .container-inner {
+        width: 100%;
+    }
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .content-text h5 {
+        font-size: 14px;
+    }
+    .buttons {
+        display: flex;
+    }
+    .button {
+        width: 40px;
+    }
+    .container-inner {
+        width: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .col-a, .col-b, .col-c {
+        margin-right: 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .body-upper-text {
+        width: 100%;
+    }
+  }
+
+
+@media screen and (min-width: 1440px) {
+    .button-container {
+        margin-right: 50px;
+        margin-left: 150px;
+    }
+    .container-inner {
+        gap: 120px;
+    }
+    .content-text h5 {
+        font-size: 18px;
+    }
+    .buttons {
+        gap: 10px;
+    }
+    .button {
+        width: 50px;
+    }
+    .logo {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .buttons {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .col-a, .col-b, .col-c {
+        margin-right: 20px;
+    }
+}
+
+
+
+
+

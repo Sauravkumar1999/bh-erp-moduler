@@ -1,0 +1,14 @@
+{
+    "name": "Allowance",
+    "alias": "allowance",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Allowance\\Providers\\AllowanceServiceProvider",
+        "Modules\\Allowance\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

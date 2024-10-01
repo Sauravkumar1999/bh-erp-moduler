@@ -1,0 +1,123 @@
+ section {
+    font-family: Pretendard;
+}
+.registration-process-content {
+    margin-top: 60px;
+}
+.registration-process-content .heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.registration-process-content .process-main-content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+.registration-process-content .process-main-content .picture-data {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.registration-process-content .process-main-content .picture-data-next {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: -80px;
+}
+.picture-data h6 b {
+    color: var(--main2, #EC661A);
+}
+.picture-data img {
+    margin-bottom: 20px;
+}
+.registration-process-content .process-bottom-content {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.process-bottom-content .process-content-box {
+    border-radius: 8px;
+    border: 1px solid var(--line, #ECECEC);
+    background: #FBFBFB;
+    height: 170px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 60px;
+}
+.process-bottom-content .process-content-box h6 {
+    margin-top: 10px;
+}
+.process-bottom-content .process-content-box h6 b {
+    font-weight: 500;
+    color: var(--main2, #EC661A);
+}
+
+.list-rr li{
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+}
+
+.list-rr li span{
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+}
+
+@media screen and (min-width: 1440px) {
+    .registration-process-content .process-bottom-content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .registration-process-content .process-main-content{
+        display: block;
+        margin: 50px auto;
+    }
+
+    .registration-process-content .process-main-content .picture-data{
+        margin-bottom: 100px;
+    }
+
+    .registration-process-content .process-main-content .picture-data-next{
+        margin-bottom: 26px;
+        transform: rotate(90deg);
+    }
+
+    .registration-process-content .process-bottom-content{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .left-image{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .process-bottom-content .process-content-box{
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .footer-container{
+        height: inherit !important;
+    }
+
+    .navbar-footer{
+        height: inherit !important;
+    }
+
+    .footer-sub-container{
+        gap: 0px !important;
+    }
+}

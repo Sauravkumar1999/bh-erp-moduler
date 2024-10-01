@@ -1,0 +1,18 @@
+{
+    "Company": true,
+    "Core": true,
+    "Dashboard": true,
+    "Media": true,
+    "Menu": true,
+    "Translation": true,
+    "User": true,
+    "Bulletin": true,
+    "Sale": true,
+    "Product": true,
+    "Allowance": true,
+    "Faq": true,
+    "ProductCompany": true,
+    "Slider": true,
+    "PushNotification": true,
+    "ActivityLog": true
+}
